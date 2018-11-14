@@ -99,3 +99,5 @@ C:\Users\Gabie and Jeremy\Source\Repos\Salesforce\SalesForce\SalesForce\bin\Enti
 C:\Users\Gabie and Jeremy\Source\Repos\Salesforce\SalesForce\SalesForce\bin\EntityFramework.SqlServer.dll
 C:\Users\Gabie and Jeremy\Source\Repos\Salesforce\SalesForce\SalesForce\bin\EntityFramework.xml
 C:\Users\Gabie and Jeremy\Source\Repos\Salesforce\SalesForce\SalesForce\bin\EntityFramework.SqlServer.xml
+C:\Users\Gabie and Jeremy\Source\Repos\Salesforce\SalesForce\SalesForce\obj\Debug\SalesForce.Migrations.accounts.resources
+C:\Users\Gabie and Jeremy\Source\Repos\Salesforce\SalesForce\SalesForce\obj\Debug\SalesForce.csproj.GenerateResource.cache

@@ -14,10 +14,11 @@ namespace SalesForce.Migrations
 
         protected override void Seed(SalesForce.Data.SalesforceContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            context.Accounts.AddOrUpdate(
+                new Data.Models.Account { Type = "Customer", Name = "Best Buy"},
+                new Data.Models.Account { Type = "Customer", Name = "Target" },
+                new Data.Models.Account { Type = "Customer", Name = "Walmart" }
+           );
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SalesForce.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -12,5 +13,7 @@ namespace SalesForce.Data
         {
 
         }
+
+        public DbSet<Account> Accounts { get; set; }
     }
 }
